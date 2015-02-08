@@ -21,7 +21,7 @@ event describes an occurrence in the lifetime of a method. There are three types
 of method event: added, changed, deleted. Regardless of their type, each event
 contains the following information:
 
-* type - added, changed, or deleted
+* status - added, changed, or deleted
 * commit - sha1 of the git commit for the code change
 * date - date of the commit
 * file_name - name of the file containing the method
